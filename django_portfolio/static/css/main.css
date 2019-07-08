@@ -200,12 +200,12 @@ h2:after {
 
 .btn-beige {
   border: 1px solid #E0CDBE;
-  color: #E0CDBE;
+  color: #7A122A;
 }
 
 .btn-beige:hover {
   font-weight: bold;
-  color: #7A122A;
+  border: 1px solid #7A122A;
 }
 
 .btn-white {
