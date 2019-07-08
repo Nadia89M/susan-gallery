@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 .content {
@@ -7,15 +7,22 @@ body {
 }
 
 .navbar {
+  /* box-shadow: 0 4px 4px -2px #E0CDBE; */
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  background-color: #E0CDBE !important;
+  min-height: 100px;
 }
 
-.bg-light {
+/* .bg-light {
   background-color: transparent !important;
-}
+} */
 
 .nav-item {
   text-transform: uppercase;
+}
+
+.active {
+  border-bottom: 2px solid #7A122A;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -71,7 +78,7 @@ body {
 }
 .home-container {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url('../img/bg2.png') no-repeat center center / cover;
+    url('../img/bg.jpg') no-repeat center center / cover;
   /* background: linear-gradient(to right,  rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.7)), url("../img/img_3.jpg") no-repeat center center / cover; */
   justify-content: center;
   height: 100vh;
@@ -103,7 +110,7 @@ h2:after {
   width: 100px;
   margin: 0 auto;
   margin-top: 30px;
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid #7A122A;
 }
 
 .card-title {
@@ -191,14 +198,14 @@ h2:after {
   margin-right: auto;
 }
 
-.btn-orange {
-  border: 1px solid orange;
-  color: orange;
+.btn-beige {
+  border: 1px solid #E0CDBE;
+  color: #E0CDBE;
 }
 
-.btn-orange:hover {
+.btn-#E0CDBE:hover {
   font-weight: bold;
-  color: orange;
+  color: #7A122A;
 }
 
 .btn-white {
@@ -218,7 +225,7 @@ h2:after {
 .parallax {
   /* The image used */
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url('../img/bg2.png') fixed no-repeat center center / cover;
+    url('../img/bg2.jpg') fixed no-repeat center center / cover;
   /* background-image: url('../img/portfolio.jpg'); */
 
   /* Set a specific height */
@@ -240,7 +247,7 @@ h2:after {
 a .icon {
   height: 40px;
   width: 40px;
-  color: orange;
+  color: #E0CDBE;
 }
 
 .round {
@@ -251,8 +258,16 @@ a .icon {
   width: auto;
 }
 
-.bg-orange {
-  background: orange !important;
+.bg-beige {
+  background: #E0CDBE !important;
+}
+
+.bg-red {
+  background: #7A122A !important;
+}
+
+.text-beige {
+  color: #E0CDBE;
 }
 
 @media only screen and (min-width: 768px) {

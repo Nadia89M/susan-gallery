@@ -5,18 +5,14 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-md-12">
-        <h2 class="py-5">Portfolio</h2>
+        <h2 class="py-5">Gallery</h2>
       </div>
     </div>
     <div class="row text-center">
       {% if categories %} {% for category in categories %}
       <div class="col-md-4 mb-3">
         <div class="text-container">
-          <img
-            src="{{ category.category_photo.url }}"
-            alt=""
-            class="mb-3 img-fluid homepage-img"
-          />
+          <img src="{{ category.category_photo.url }}" alt="" class="mb-3 img-fluid homepage-img" />
           <div class="centered">
             <h5>
               <a href="{{ category.slug }}">{{ category.name }}</a>

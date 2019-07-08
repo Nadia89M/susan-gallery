@@ -8,9 +8,7 @@
         <h2 class="py-5">{{ category.name }}</h2>
         <p class="text-center">{{ category.description }}</p>
         <p class="text-left">
-          <a class="btn btn-orange" href="{% url 'categories' %}" role="button"
-            >Back To Portfolio &raquo;</a
-          >
+          <a class="btn btn-#E0CDBE" href="{% url 'categories' %}" role="button">Back To Portfolio &raquo;</a>
         </p>
       </div>
     </div>
@@ -18,11 +16,7 @@
       {% if photos %} {% for photo in photos %} {% if photo.is_published %}
       <div class="col-md-4 mb-3">
         <div class="text-container">
-          <a
-            href="{{ photo.photo_main.url }}"
-            data-lightbox="category-photos"
-            data-title="{{ photo.title }}"
-          >
+          <a href="{{ photo.photo_main.url }}" data-lightbox="category-photos" data-title="{{ photo.title }}">
             <img src="{{ photo.photo_main.url }}" alt="" class="img-fluid" />
           </a>
         </div>
