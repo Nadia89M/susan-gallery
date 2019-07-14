@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'categories.apps.CategoriesConfig',
     'photos.apps.PhotosConfig',
     'posts.apps.PostsConfig',
+    'testimonials.apps.TestimonialsConfig',
     'contact.apps.ContactConfig',
     'storages',
     'ckeditor',

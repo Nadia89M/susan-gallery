@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% extends 'base.html' %} {% block content %}
+<section id="testimonials" class="py-5">
+    <div class="container">
+        <!-- <div class="row text-center">
+            <div class="col-md-12">
+                <h2 class="py-5 blog-title post-title title"></h2>
+            </div>
+        </div> -->
+        <div class="row">
+            {% if testimonials %} {% for testimonial in testimonials %} {% if testimonial.is_published %}
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{ testimonial.photo_main.url }}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ testimonial.name }}-{{ testimonial.title }}</h5>
+                        <p class="card-text">{{ testimonial.testimonial }}</p>
+                    </div>
+                    <!-- <div class="square-container">
+          <div class="square">
+            <div class="front">
+              <img class="work-img" src="{{ testimonial.photo_main.url }}" />
+            </div>
+            <div class="back">
+              <p class="p-3">
+                <span class="work-title grey-title">{{ testimonial.name }}-{{ testimonial.title }}</span><br />
+                {{ testimonial.testimonial }}
+              </p>
+            </div>
+          </div>
+        </div> -->
+                </div>
+                {% endif %} {% endfor %} {% else %}
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p>No Testimonials Available</p>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+</section>
+
+{% endblock %}
