@@ -270,6 +270,15 @@ a .icon {
   color: #E0CDBE;
 }
 
+.card {
+  border: 1px solid #7A122A !important;
+}
+
+.card-img-top {
+  width: auto !important;
+  height: 250px !important;
+}
+
 @media only screen and (min-width: 768px) {
   .service {
     margin: 3rem 0;
