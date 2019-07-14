@@ -16,29 +16,17 @@
             <h5 class="card-title text-center">{{ testimonial.name }}-{{ testimonial.title }}</h5>
             <p class="card-text">{{ testimonial.testimonial }}</p>
           </div>
-          <!-- <div class="square-container">
-          <div class="square">
-            <div class="front">
-              <img class="work-img" src="{{ testimonial.photo_main.url }}" />
-            </div>
-            <div class="back">
-              <p class="p-3">
-                <span class="work-title grey-title">{{ testimonial.name }}-{{ testimonial.title }}</span><br />
-                {{ testimonial.testimonial }}
-              </p>
-            </div>
-          </div>
-        </div> -->
-        </div>
-        {% endif %} {% endfor %} {% else %}
-      </div>
-      <div class="row text-center">
-        <div class="col-md-12">
-          <p>No Testimonials Available</p>
         </div>
       </div>
-      {% endif %}
+      {% endif %} {% endfor %} {% else %}
     </div>
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p>No Testimonials Available</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
 </section>
 
 {% endblock %}
