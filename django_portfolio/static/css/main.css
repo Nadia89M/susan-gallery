@@ -206,6 +206,7 @@ h2:after {
 .btn-beige:hover {
   font-weight: bold;
   border: 1px solid #7A122A;
+  color: #7A122A;
 }
 
 .btn-white {
