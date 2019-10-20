@@ -251,12 +251,8 @@ a .icon {
   color: #E0CDBE;
 }
 
-.round {
-  border-radius: 50%;
-  box-shadow: 10px 10px 10px grey;
-  border: 1px solid grey;
-  height: 300px;
-  width: auto;
+.pic--margin-top {
+  margin-top: 40px;
 }
 
 .bg-beige {
