@@ -280,6 +280,10 @@ a .icon {
   font-size: 1rem;
 }
 
+.lead strong {
+  font-weight: 900;
+}
+
 @media only screen and (min-width: 768px) {
   .service {
     margin: 3rem 0;
