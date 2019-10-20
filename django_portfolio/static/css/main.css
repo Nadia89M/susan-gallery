@@ -291,7 +291,10 @@ a .icon {
 }
 
 @media only screen and (max-width: 768px) {
-  .g-text, .service-img {
+  .g-text {
     margin: 3rem;
+  }
+  .service-img {
+    margin: 3rem auto;
   }
 }
