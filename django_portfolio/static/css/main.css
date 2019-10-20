@@ -284,6 +284,9 @@ a .icon {
   .service {
     margin: 3rem 0;
   }
+}
+
+@media only screen and (max-width: 768px) {
   .g-text {
     margin: 3rem;
   }
