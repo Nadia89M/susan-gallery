@@ -276,6 +276,10 @@ a .icon {
   height: 250px !important;
 }
 
+.g-text {
+  font-size: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
   .service {
     margin: 3rem 0;
