@@ -41,6 +41,7 @@ p {
 .title {
   font-family: 'Allura', cursive;
   font-style: italic;
+  font-size: 3rem;
 }
 
 .title-h {
