@@ -14,7 +14,7 @@ p {
 .navbar {
   /* box-shadow: 0 4px 4px -2px #E0CDBE; */
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
-  background-color: #E0CDBE !important;
+  background-color: #e0cdbe !important;
   min-height: 100px;
 }
 
@@ -27,7 +27,7 @@ p {
 }
 
 .active {
-  border-bottom: 2px solid #7A122A;
+  border-bottom: 2px solid #7a122a;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -85,7 +85,7 @@ p {
 }
 .home-container {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url('../img/bg.jpg') no-repeat center center / cover;
+    url('../img/bg3.jpg') no-repeat center center / cover;
   /* background: linear-gradient(to right,  rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.7)), url("../img/img_3.jpg") no-repeat center center / cover; */
   justify-content: center;
   height: 100vh;
@@ -117,7 +117,7 @@ h2:after {
   width: 100px;
   margin: 0 auto;
   margin-top: 30px;
-  border-bottom: 2px solid #7A122A;
+  border-bottom: 2px solid #7a122a;
 }
 
 .subtitle {
@@ -210,14 +210,14 @@ h2:after {
 }
 
 .btn-beige {
-  border: 1px solid #E0CDBE;
-  color: #7A122A;
+  border: 1px solid #e0cdbe;
+  color: #7a122a;
 }
 
 .btn-beige:hover {
   font-weight: bold;
-  border: 1px solid #7A122A;
-  color: #7A122A;
+  border: 1px solid #7a122a;
+  color: #7a122a;
 }
 
 .btn-white {
@@ -259,7 +259,7 @@ h2:after {
 a .icon {
   height: 40px;
   width: 40px;
-  color: #E0CDBE;
+  color: #e0cdbe;
 }
 
 .pic--margin-top {
@@ -267,19 +267,19 @@ a .icon {
 }
 
 .bg-beige {
-  background: #E0CDBE !important;
+  background: #e0cdbe !important;
 }
 
 .bg-red {
-  background: #7A122A !important;
+  background: #7a122a !important;
 }
 
 .text-beige {
-  color: #E0CDBE;
+  color: #e0cdbe;
 }
 
 .card {
-  border: 1px solid #7A122A !important;
+  border: 1px solid #7a122a !important;
 }
 
 .card-img-top {
