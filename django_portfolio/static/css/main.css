@@ -1,6 +1,7 @@
 body {
   font-family: 'Karla', sans-serif;
   text-align: justify;
+  background-color: #f2f3f4;
 }
 
 p {
@@ -96,8 +97,9 @@ p {
 }
 
 .home-centered {
+  color: #f2f3f4;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
