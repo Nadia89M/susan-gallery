@@ -1,11 +1,22 @@
 body {
   font-family: 'Karla', sans-serif;
   text-align: justify;
-  background-color: #f2f3f4;
+  background-color: #fbf6f0;
 }
 
 p {
   font-family: 'futura-pt', sans-serif;
+}
+
+.red-link {
+  text-decoration: none;
+  color: #7a122a;
+}
+
+.red-link:hover {
+  text-decoration: none;
+  color: #7a122a;
+  border-bottom: 1px solid #7a122a;
 }
 
 .content {
@@ -97,7 +108,7 @@ p {
 }
 
 .home-centered {
-  color: #f2f3f4;
+  color: #fbf6f0;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -290,7 +301,7 @@ a .icon {
 }
 
 .g-text {
-  font-size: 1rem;
+  vertical-align: middle;
 }
 
 .lead strong {

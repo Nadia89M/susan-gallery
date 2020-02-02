@@ -30,19 +30,22 @@
   <div class="row featurette my-5">
     <div class="col-md-7">
       <h3 class="featurette-heading">
-        Lorem ipsum dolor sit amet
+        THE BEAUTY OF BESPOKE
       </h3>
       <p class="lead">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I create elegant, modern headwear, inspired by vintage glamour, yet
+        supremely wearable today.  Each retro-influenced piece is handmade by
+        me, using meticulous couture techniques and exclusive materials chosen
+        to complement your outfit.  I offer individual attention designed to
+        help you discover your most flattering hat, headband or headpiece for
+        any occasion.  These unique, heirloom pieces can also be surprisingly
+        affordable.  My aim is to ensure all my clients look and feel beautiful,
+        stylish and ready to turn heads.
       </p>
       <p>
-        <a class="btn btn-beige" href="{% url 'contact' %}" role="button">Contact me &raquo;</a>
+        <a class="btn btn-beige" href="{% url 'contact' %}" role="button"
+          >Contact me &raquo;</a
+        >
       </p>
     </div>
     <div class="col-md-5 text-center">
@@ -61,7 +64,12 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </h3>
     <p class="text-left">
-      <a class="btn btn-white btn-galleries" href="{% url 'categories' %}" role="button">Gallery &raquo;</a>
+      <a
+        class="btn btn-white btn-galleries"
+        href="{% url 'categories' %}"
+        role="button"
+        >Gallery &raquo;</a
+      >
     </p>
   </div>
 </div>
@@ -98,7 +106,11 @@
         {% if categories %} {% for category in categories %}
         <div class="col-md-4 mb-3">
           <div class="text-container">
-            <img src="{{ category.category_photo.url }}" alt="" class="mb-3 img-fluid homepage-img" />
+            <img
+              src="{{ category.category_photo.url }}"
+              alt=""
+              class="mb-3 img-fluid homepage-img"
+            />
             <div class="centered">
               <h5>
                 <a href="portfolio/{{ category.slug }}">{{ category.name }}</a>
