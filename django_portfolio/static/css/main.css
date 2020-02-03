@@ -8,6 +8,12 @@ p {
   font-family: 'futura-pt', sans-serif;
 }
 
+.quote {
+  font-family: 'Allura', cursive;
+  font-style: italic;
+  font-size: 24px;
+}
+
 .red-link {
   text-decoration: none;
   color: #7a122a;
