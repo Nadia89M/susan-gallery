@@ -2,61 +2,113 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 
 <div class="container marketing">
-  <h2 class="text-center pt-5">Services</h2>
+  <h2 class="text-center pt-5">Bespoke Process</h2>
 
   <!-- START THE GALLERIES -->
 
   <div class="row service p-5">
     <div class="col-md-7 px-3">
-      <h4 class="text-center sub">PHOTOGRAPHY</h4>
+      <h4 class="text-center sub">THE BESPOKE PROCESS</h4>
       <p class="lead g-text text-center">
-        It all starts here. The ideas, the projects, the images, they all take
-        shape with the ‘’simple’’ click of the camera. This my core, the main
-        job is done behind the lense, with lights, background, flash and...my
-        eyes. This is where we will work together with poses, smiles, walls,
-        chairs and anything that will let us build the shooting.
+        The word 'bespoke' can be daunting, but all it means is that your hat,
+        headpiece or headband is designed and made especially for you. The
+        process may be less time consuming than trailing round endless shops
+        trying on hats or buying and sending back from websites. That's
+        especially the case if you want to match a particular outfit or don't
+        feel confident in hats. I enjoy helping you find the hat that make you
+        feel wonderful, and I'm always here if you have questions or want to
+        discuss changes. And you may find the price is competitive with some
+        ready-to-wear hats. The feedback from my customers is that having a hat
+        made for them is enjoyable, creative and fun.  My clients tell me
+        there's little as thrilling as owning something entirely unique.  Having
+        something made bespoke for you is a very special feeling. Here's how the
+        process works:
       </p>
     </div>
     <div class="col-md-5">
-      <img src="{% static 'img/PHOTOGRPAHY.jpg' %}" alt="" class="my-3 img-fluid service-img" />
+      <img
+        src="{% static 'img/bg.jpg' %}"
+        alt=""
+        class="my-3 img-fluid service-img"
+      />
     </div>
   </div>
 
   <div class="row service p-5">
     <div class="col-md-5">
-      <img src="{% static 'img/POST.PNG' %}" alt="" class="my-3 img-fluid service-img" />
+      <img
+        src="{% static 'img/bg.jpg' %}"
+        alt=""
+        class="my-3 img-fluid service-img"
+      />
     </div>
     <div class="col-md-7 px-3">
-      <h4 class="text-center sub">POST-PRODUCTION & RETOUCH</h4>
+      <h4 class="text-center sub">FROM APPOINTMENT TO DELIVERY</h4>
       <p class="lead g-text text-center">
-        Phase two of the shooting: looking at what we’ve done and enhance it.
-        Retouching doesn’t necessary mean making your hair longer or your legs
-        thinner, it might mean highlighting your curves against a wonderful
-        purple lavender field or turning your portrait into a vintage
-        black&white still. The rule here is: don’t overdue.
+        First, we have an initial, no-obligation, informal conversation of
+        around 30-40 minutes. During this time you can tell me about your event,
+        preferred colours, colour, the outfit you are wearing, your style and
+        preferences.  You can come to my workshop, I can come to you if you are
+        in London, or we can meet in central London. Please bring fabric
+        swatches or your outfit if you want a hat to match.<br /><br />
+        I will also ask how much you prefer to spend and discuss the type of
+        fabrics and trimmings available at different price-points. I always
+        endeavour to work within a budget that suits you.<br /><br />
+        After this meeting, I can give you a quotation, and if you wish to place
+        an order, I will take a 25% deposit.<br /><br />
+        Around 2-3 weeks later we will have a second meeting to try on your hat,
+        so it fits precisely, and to ensure you are happy with the style.<br /><br />
+        At the third and final meeting, usually around 6 weeks after initial
+        order, I will show you the completed hat and make any final adjustments.
+        Payment of the balance is required at this point.<br /><br />
+        All my hats are wrapped in tissue and ribbon and beautifully presented
+        to take home. If you require a hatbox, this can also be arranged.<br /><br />
+        Otherwise, your hat can be posted in protective packaging. This usually
+        costs between £10 and £20, depending on the size.<br /><br />
+        Because all my hats are hand-sewn, please allow six weeks for the
+        process. Demand can be higher in summer, so for weddings and Ascot,
+        please plan early. However, if you need something sooner, don't hesitate
+        to call me to discuss as rush orders can sometimes be made.
       </p>
     </div>
   </div>
 
   <div class="row service p-3">
     <div class="col-md-7 px-5">
-      <h4 class="text-center sub">MEDIA CREATION</h4>
+      <h4 class="text-center sub">FOR CUSTOMERS OUT OF LONDON</h4>
       <p class="lead g-text text-center">
-        Baby showers invites, wedding cards, restaurant menu, you say it!
-        Creativity, a context and a laptop are our tools. Whether you need to
-        prepare cards to inform people of your upcoming birthday party or a
-        business presentation, we’ll create templates, draw lines and add images
-        for a neat and target product.
+        While meeting in person is always the best option, it is also possible
+        to work successfully on the phone and by email. You can post swatches of
+        material that you'd like me to match, and I can also post samples of
+        fabrics and the final hat to you.
+      </p>
+      <h4 class="text-center sub">SIZING</h4>
+      <p class="lead g-text text-center">
+        My headpieces and hairbands are made in one size to fit everyone. They
+        are shaped and formed with wire and have elastic so may be adjusted to
+        fit any head size perfectly.<br /><br />However, hats are
+        made-to-measure and traditionally blocked so, I will either need to
+        measure your head, or you can send your measurements to me.
+      </p>
+      <h4 class="text-center sub">HOW TO MEASURE</h4>
+      <p class="lead g-text text-center">
+        Use a soft tape measure. Measure your head straight across your forehead
+        just above your ears and around the fullest part of your head.
       </p>
     </div>
     <div class="col-md-5">
-      <img src="{% static 'img/MEDIA.jpg' %}" alt="" class="my-3 img-fluid service-img" />
+      <img
+        src="{% static 'img/bg.jpg' %}"
+        alt=""
+        class="my-3 img-fluid service-img"
+      />
     </div>
   </div>
   <div class="row mb-5">
     <div class="col-12">
       <p class="text-left">
-        <a class="btn btn-#E0CDBE btn-galleries" href="{% url 'categories' %}" role="button">Portfolio &raquo;</a>
+        To book an appointment or have an initial chat - <br /><br />Tel: 07710
+        315887 <br /><br />Email: susanmillardw9@gmail.com
       </p>
     </div>
   </div>
