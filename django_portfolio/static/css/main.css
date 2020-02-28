@@ -36,6 +36,10 @@ p {
   min-height: 100px;
 }
 
+.navbar-toggler:focus {
+  outline: none;
+}
+
 /* .bg-light {
   background-color: transparent !important;
 } */
